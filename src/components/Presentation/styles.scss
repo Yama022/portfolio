@@ -1,4 +1,8 @@
+@use 'src/styles/vars';
+
 .presentation {
-  color: green;
-  font-size: 2.5em;
+  color: black;
+  background-color: vars.$primary-color;
+  font-size: 5em;
+  min-height: 100vh;
 }

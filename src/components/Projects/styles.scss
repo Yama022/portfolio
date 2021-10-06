@@ -1,4 +1,8 @@
+@use 'src/styles/vars';
+
 .projects {
+  background-color: vars.$secondary-color;
   color: black;
   font-size: 2em;
+  min-height: 100vh;
 }

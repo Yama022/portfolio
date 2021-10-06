@@ -1,8 +1,4 @@
 .portfolio {
-  width: 500px;
-  margin: 1em auto;
-  text-align: center;
-  & h1 {
-    color: red;
-  }
+  display: flex;
+  flex-direction: column;
 }

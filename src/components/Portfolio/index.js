@@ -9,7 +9,6 @@ import './styles.scss';
 export default function Portfolio() {
   return (
   <div className="portfolio">
-    <h1>Portfolio</h1>
     <Presentation />
     <Projects />
     <Contact />
