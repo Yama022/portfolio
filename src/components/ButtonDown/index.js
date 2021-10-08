@@ -16,12 +16,12 @@ export default function ButtonDown({ page }) {
 }
   return (
     <div className="footer">
-        <div className="button__back">
-          <span onClick={handleOnClick}>
-            <BsArrowDownCircle />
-          </span>
-        </div>
+      <div className="button__back">
+        <span onClick={handleOnClick}>
+          <BsArrowDownCircle />
+        </span>
       </div>
+    </div>
   );
 }
 

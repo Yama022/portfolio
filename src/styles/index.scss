@@ -29,8 +29,8 @@ body {
   height: 60px;
   width: 60px;
   border-radius: 10px;
-  right: 10%;
-  bottom: 15%;
+  right: 7%;
+  bottom: 10%;
   font-size: 3em;
   animation: slide-top 1.4s ease-in-out infinite alternate both;
 }
@@ -51,32 +51,10 @@ h1 {
   margin-top: auto;
   text-align: center;
 }
-
 .button__back {
   position: absolute;
-  &__presentation {
-    bottom: 0%;
-    left: 50%;
-    font-size: 4em;
-    &:hover {
-      transform: scale(1.1);
-    }
-  }
-  &__contact {
-    bottom: 0%;
-    left: 50%;
-    font-size: 4em;
-    &:hover {
-      transform: scale(1.1);
-    }
-  }
-  &__projects {
-    bottom: 0%;
-    left: 50%;
-    font-size: 4em;
-    &:hover {
-      transform: scale(1.1);
-    }
-  }
-  
+  &:hover {
+    transform: scale(1.1);
+  }    
 }
+
