@@ -7,171 +7,89 @@ import './styles.scss';
 export default function Presentation() {
   return (
     <div className='presentation'>
-      <div className="title">
+      <div className="presention__title">
         <h1>Qui suis-je ?</h1>
       </div>
 
-      <div className="presentation --content">
+      <div className="presentation__content">
         <h2>Si vous souhaitez me joindre :
           <span>rjacquemin019@gmail.com</span>
         </h2>
         <BsLinkedin />
         <BsGithub />
       </div>
-      <div className="presentation --content">
+      <div className="presentation__content">
         <h2>Si vous souhaitez me joindre :
           <span>rjacquemin019@gmail.com</span>
         </h2>
         <BsLinkedin />
         <BsGithub />
       </div>
-      <div className="presentation --content">
+      <div className="presentation__content">
         <h2>Si vous souhaitez me joindre :
           <span>rjacquemin019@gmail.com</span>
         </h2>
         <BsLinkedin />
         <BsGithub />
       </div>
-      <div className="presentation --content">
+      <div className="presentation__content">
         <h2>Si vous souhaitez me joindre :
           <span>rjacquemin019@gmail.com</span>
         </h2>
         <BsLinkedin />
         <BsGithub />
       </div>
-      <div className="presentation --content">
+      <div className="presentation__content">
         <h2>Si vous souhaitez me joindre :
           <span>rjacquemin019@gmail.com</span>
         </h2>
         <BsLinkedin />
         <BsGithub />
       </div>
-      <div className="presentation --content">
+      <div className="presentation__content">
         <h2>Si vous souhaitez me joindre :
           <span>rjacquemin019@gmail.com</span>
         </h2>
         <BsLinkedin />
         <BsGithub />
       </div>
-      <div className="presentation --content">
+      <div className="presentation__content">
         <h2>Si vous souhaitez me joindre :
           <span>rjacquemin019@gmail.com</span>
         </h2>
         <BsLinkedin />
         <BsGithub />
       </div>
-      <div className="presentation --content">
+      <div className="presentation__content">
         <h2>Si vous souhaitez me joindre :
           <span>rjacquemin019@gmail.com</span>
         </h2>
         <BsLinkedin />
         <BsGithub />
       </div>
-      <div className="presentation --content">
+      <div className="presentation__content">
         <h2>Si vous souhaitez me joindre :
           <span>rjacquemin019@gmail.com</span>
         </h2>
         <BsLinkedin />
         <BsGithub />
       </div>
-      <div className="presentation --content">
+      <div className="presentation__content">
         <h2>Si vous souhaitez me joindre :
           <span>rjacquemin019@gmail.com</span>
         </h2>
         <BsLinkedin />
         <BsGithub />
       </div>
-      <div className="presentation --content">
+      <div className="presentation__content">
         <h2>Si vous souhaitez me joindre :
           <span>rjacquemin019@gmail.com</span>
         </h2>
         <BsLinkedin />
         <BsGithub />
       </div>
-      <div className="presentation --content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation --content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation --content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation --content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation --content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation --content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation --content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation --content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation --content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation --content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation --content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation --content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
+      
+      
       
       <div className="footer">
         <div className="button__back">

@@ -3,5 +3,27 @@
 .projects {
   background-color: vars.$secondary-color;
   color: black;
-  max-height: 100vh;
+  min-height: 100vh;
+  margin: auto;
+  width: 100%;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: black;
+  &__title {
+    font-size: 3em;
+  }
+  &__box {
+    display: flex;
+    flex-wrap: wrap;
+    &__content {
+      border: 1px solid black;
+      width: 25%;
+      margin-top: .5em;
+      color: green;
+      flex-wrap: wrap;
+      font-size: 1.5em;
+    }
+  }
 }

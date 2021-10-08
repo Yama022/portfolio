@@ -1,8 +1,23 @@
 @use 'src/styles/vars';
 
 .presentation {
+  margin: auto;
+  width: 100%;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   color: black;
   background-color: vars.$primary-color;
   font-weight: 900;
-  max-height: 100vh;
+  min-height: 100vh;
+  &__title {
+    font-size: 3em;
+  }
+  &__content {
+    margin-top: .5em;
+    color: green;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+  }
 }
