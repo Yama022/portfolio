@@ -1,12 +1,12 @@
 @use 'src/styles/vars';
 
 .projects {
+  position: relative;
   background-color: vars.$secondary-color;
   color: black;
-  min-height: 100vh;
+  height: 100vh;
   margin: auto;
   width: 100%;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   text-align: center;

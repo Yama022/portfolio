@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from "react-scroll";
+import ButtonDown from 'src/components/ButtonDown';
 import { BsArrowDownCircle, BsLinkedin, BsGithub } from "react-icons/bs";
 
 import './styles.scss';
@@ -147,18 +147,7 @@ export default function Projects() {
           <BsGithub />
         </div>
       </div>
-      <div className="footer">
-        <div className="button__back">
-          <Link
-            to="contact"
-            smooth={true}
-            spy={true}
-            duration={700}
-          >
-            < BsArrowDownCircle />
-          </Link>
-        </div>
-      </div>
+      <ButtonDown page={2} />
     
     </div>
   );

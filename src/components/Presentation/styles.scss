@@ -1,6 +1,7 @@
 @use 'src/styles/vars';
 
 .presentation {
+  position: relative;
   margin: auto;
   width: 100%;
   border: 1px solid green;
@@ -10,7 +11,7 @@
   color: black;
   background-color: vars.$primary-color;
   font-weight: 900;
-  min-height: 100vh;
+  height: 100vh;
   &__title {
     font-size: 3em;
   }

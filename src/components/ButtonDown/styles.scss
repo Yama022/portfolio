@@ -1,0 +1,22 @@
+@use 'src/styles/vars';
+
+.button__back {
+  cursor: pointer;
+  position: absolute;
+  bottom: 5%;
+  left: 48.5%;
+  font-size: 4.5rem;
+  animation: slide-top 1.4s ease-in-out infinite alternate both;
+}
+
+@keyframes slide-top {
+  0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+
+  100% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+  }
+}

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from "react-scroll";
-import { BsArrowUpCircle, BsLinkedin, BsGithub } from "react-icons/bs";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 import './styles.scss';
 
@@ -19,18 +18,6 @@ export default function Contact() {
         <BsGithub />
       </div>
 
-      <div className="footer">
-        <div className="button__back">
-          <Link
-            to="presentation"
-            smooth={true}
-            spy={true}
-            duration={700}
-          >
-            <BsArrowUpCircle />
-          </Link>
-        </div>
-      </div>
     </div>
   );
 }

@@ -1,10 +1,9 @@
 // == Import
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import Projects from 'src/components/Projects';
 import Presentation from 'src/components/Presentation';
 import Contact from 'src/components/Contact';
-import { animateScroll as scroll } from "react-scroll";
+import { IoIosArrowUp } from 'react-icons/io';
 import './styles.scss';
 
 // == Composant
@@ -12,7 +11,7 @@ export default function Portfolio() {
   useEffect(() => {
     window.addEventListener('scroll', () => {
       const button = document.querySelector('.button__return__top');
-      if (window.scrollY > 100) {
+      if (window.scrollY > 200) {
         button.style.display = 'block';
       }
       else {
@@ -25,7 +24,20 @@ export default function Portfolio() {
     <Presentation />
     <Projects />
     <Contact />
+    <button
+        type="button"
+        className="button__return__top"
+        onClick={() => {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+          });
+        }}
+      >
+        <IoIosArrowUp />
+      </button>    
   </div>
+
 
   )
 };

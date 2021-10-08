@@ -1,7 +1,11 @@
 @use 'src/styles/vars';
 
 .contact {
+  position: relative;
   background-color: vars.$tertiary-color;
   color: black;
-  min-height: 100vh;
+  height: 100vh;
+  &__content {
+    font-size: 1.5em;
+  }
 }
