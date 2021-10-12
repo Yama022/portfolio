@@ -10,12 +10,12 @@ import './styles.scss';
 export default function Portfolio() {
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      const button = document.querySelector('.button__return__top');
+      const button = document.querySelector('.button__top');
       if (window.scrollY > 200) {
-        button.style.display = 'block';
+        button.classList.add("button__top--active");
       }
       else {
-        button.style.display = 'none';
+        button.classList.remove("button__top--active");
       }
     });
   }, []);
@@ -24,18 +24,20 @@ export default function Portfolio() {
     <Presentation />
     <Projects />
     <Contact />
-    <button
-        type="button"
-        className="button__return__top"
-        onClick={() => {
-          window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
-          });
-        }}
-      >
-        <IoIosArrowUp />
-      </button>    
+    <div className="button__top">
+      <button
+          type="button"
+          className="button__top__return__top"
+          onClick={() => {
+            window.scrollTo({
+              top: 0,
+              behavior: 'smooth',
+            });
+          }}
+        >
+          <IoIosArrowUp />
+        </button>    
+    </div>
   </div>
 
 

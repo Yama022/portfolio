@@ -1,5 +1,6 @@
 @use 'src/styles/vars';
 
+
 .projects {
   position: relative;
   background-color: vars.$secondary-color;
@@ -14,16 +15,34 @@
   &__title {
     font-size: 3em;
   }
-  &__box {
-    display: flex;
-    flex-wrap: wrap;
-    &__content {
-      border: 1px solid black;
-      width: 25%;
-      margin-top: .5em;
+    &__container {
+      margin-top: 1.5em;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      border: 1px solid green;
+      width: 75%;
       color: green;
-      flex-wrap: wrap;
       font-size: 1.5em;
-    }
+      &__list {
+        border: 1px solid black;
+        margin: 1em 0;
+        &__project {
+          &__content {
+            background-color: vars.$primary-color;
+            width: 50%;
+            & h2 {
+              margin-top: 1em;
+            }
+            & p {
+              color: black;
+              margin: 1rem auto;
+            }
+          }
+          
+        }
+        
+      }
+    
   }
 }

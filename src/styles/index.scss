@@ -17,22 +17,35 @@ body {
   font-family: 'Dancing Script', cursive;
 }
 
-.button__return__top {
-  border: 2px solid black;
-  box-shadow: 0px 0px 2px 1px #000000;
-  display: none;
+.button__top {
   position: fixed;
-  color: black;
-  background: none;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
   z-index: 999;
-  padding: 0;
-  height: 60px;
-  width: 60px;
-  border-radius: 10px;
   right: 7%;
-  bottom: 10%;
-  font-size: 3em;
-  animation: slide-top 1.4s ease-in-out infinite alternate both;
+  bottom: 5%;
+  &--active {
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+    &:active {
+      transform: scale(0.9);
+      box-shadow: none;
+    }
+  }
+  &__return__top {
+    border: 3px solid black;
+    box-shadow: 0px 0px 2px 1px #000000;
+    display: block;
+    color: black;
+    background: none;
+    padding: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    font-size: 3em;
+    animation: slide-top 1.4s ease-in-out infinite alternate both;
+  }
+
 }
 
 .title {
@@ -47,14 +60,6 @@ h1 {
   text-align: center;
 }
 
-.footer {
-  margin-top: auto;
-  text-align: center;
-}
-.button__back {
-  position: absolute;
-  &:hover {
-    transform: scale(1.1);
-  }    
-}
+
+
 

@@ -81,48 +81,8 @@ export default function Presentation() {
         <BsLinkedin />
         <BsGithub />
       </div>
-      <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
+
+
       
       <ButtonDown page={1} />
     </div>
