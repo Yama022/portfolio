@@ -17,28 +17,36 @@ export default function Presentation() {
         <h2>Je suis développeur <strong>FullStack JS</strong> <em>(avec une préférence en front-end)</em></h2>
         <h3>Ma stack technique : </h3>
         <div className="presentation__content__stack">
-          <div className="presentation__content__stack__language"><ImHtmlFive />
+          <div className="presentation__content__stack__language">
+            <ImHtmlFive />
             <span className="presentation__content__stack__language__name">HTML5</span>
           </div>
-          <div className="presentation__content__stack__language"><SiCss3 />
+          <div className="presentation__content__stack__language">
+            <SiCss3 />
             <span className="presentation__content__stack__language__name">CSS3</span>
           </div>
-          <div className="presentation__content__stack__language"><SiJavascript />
+          <div className="presentation__content__stack__language">
+            <SiJavascript />
             <span className="presentation__content__stack__language__name">JavaScript</span>
           </div>
-          <div className="presentation__content__stack__language"><SiReact />
+          <div className="presentation__content__stack__language">
+            <SiReact />
             <span className="presentation__content__stack__language__name">React</span>
           </div>
-          <div className="presentation__content__stack__language"><FaVuejs />
+          <div className="presentation__content__stack__language">
+            <FaVuejs />
             <span className="presentation__content__stack__language__name">VueJS</span>
           </div>
-          <div className="presentation__content__stack__language"><SiSass />
+          <div className="presentation__content__stack__language">
+            <SiSass />
             <span className="presentation__content__stack__language__name">SASS</span>
           </div>
-          <div className="presentation__content__stack__language"><FaNodeJs />
+          <div className="presentation__content__stack__language">
+            <FaNodeJs />
             <span className="presentation__content__stack__language__name">NodeJS</span>
           </div>
-          <div className="presentation__content__stack__language"><SiPostgresql />
+          <div className="presentation__content__stack__language">
+            <SiPostgresql />
             <span className="presentation__content__stack__language__name">Postgresql</span>
           </div>
           
