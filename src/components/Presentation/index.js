@@ -1,87 +1,49 @@
 import React from 'react';
 import ButtonDown from 'src/components/ButtonDown';
-import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { ImHtmlFive } from "react-icons/im";
+import { FaNodeJs, FaVuejs } from "react-icons/fa";
+import { SiCss3, SiJavascript, SiReact, SiSass, SiPostgresql } from "react-icons/si";
 
 import './styles.scss';
 
 export default function Presentation() {
   return (
     <div className='presentation'>
-      <div className="presention__title">
-        <h1>Qui suis-je ?</h1>
+      <div className="presentation__title">
+        <p>Je m'appelle</p> <h1>Rémi Jacquemin</h1>
       </div>
 
       <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
+        <h2>Je suis développeur <strong>FullStack JS</strong> <em>(avec une préférence en front-end)</em></h2>
+        <h3>Ma stack technique : </h3>
+        <div className="presentation__content__stack">
+          <div className="presentation__content__stack__language"><ImHtmlFive />
+            <span className="presentation__content__stack__language__name">HTML5</span>
+          </div>
+          <div className="presentation__content__stack__language"><SiCss3 />
+            <span className="presentation__content__stack__language__name">CSS3</span>
+          </div>
+          <div className="presentation__content__stack__language"><SiJavascript />
+            <span className="presentation__content__stack__language__name">JavaScript</span>
+          </div>
+          <div className="presentation__content__stack__language"><SiReact />
+            <span className="presentation__content__stack__language__name">React</span>
+          </div>
+          <div className="presentation__content__stack__language"><FaVuejs />
+            <span className="presentation__content__stack__language__name">VueJS</span>
+          </div>
+          <div className="presentation__content__stack__language"><SiSass />
+            <span className="presentation__content__stack__language__name">SASS</span>
+          </div>
+          <div className="presentation__content__stack__language"><FaNodeJs />
+            <span className="presentation__content__stack__language__name">NodeJS</span>
+          </div>
+          <div className="presentation__content__stack__language"><SiPostgresql />
+            <span className="presentation__content__stack__language__name">Postgresql</span>
+          </div>
+          
+        </div>
       </div>
-      <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-      <div className="presentation__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
-      </div>
-
 
       
       <ButtonDown page={1} />

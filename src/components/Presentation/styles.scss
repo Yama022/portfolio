@@ -1,24 +1,76 @@
 @use 'src/styles/vars';
 
 .presentation {
+  user-select: none;
   position: relative;
-  margin: auto;
   width: 100%;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   color: black;
   background-color: vars.$primary-color;
-  font-weight: 900;
   height: 100vh;
   &__title {
-    font-size: 3em;
+    font-weight: 900;
+    margin-top: 3em;
+    & p {
+      display: inline;
+      font-size: 3em;
+      padding-right: .3em;
+    }
+    & h1 {
+      display: inline;
+      font-size: 5em;
+    }
   }
   &__content {
-    margin-top: .5em;
-    color: green;
-    flex-wrap: wrap;
-    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: 5em;
+    & h2 {
+      font-size: 2.5em;
+      & em {
+        font-style: italic;
+        font-size: .7em;
+        font-weight: 100;
+      }
+      & strong {
+        font-weight: 900;
+      }
+    }
+    & h3 {
+      font-size: 2em;
+      margin-top: 1em;
+    }
+    &__stack {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: auto;
+      margin-top: 1.2em;
+      font-size: 2.5em;
+      &__language {
+        margin: 0 1em;
+        width: 3em;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        &__name {
+          position: absolute;
+          bottom: -90%;
+          opacity: 0;
+          font-size: .5em;
+        }
+        &:hover > * {
+          transform: scale(1.3);
+          color: vars.$tertiary-color;
+          opacity: 1;
+          -webkit-transition: opacity 0.3s 0s ease-out;
+          -moz-transition: opacity 0.3s 0s ease-out;
+          -o-transition: opacity 0.3s 0s ease-out;
+          transition: opacity 0.3s 0s ease-out;
+        }
+      }
+    }
   }
 }

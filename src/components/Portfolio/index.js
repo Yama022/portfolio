@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import Projects from 'src/components/Projects';
 import Presentation from 'src/components/Presentation';
 import Contact from 'src/components/Contact';
+import Welcome from 'src/components/Welcome';
 import { IoIosArrowUp } from 'react-icons/io';
 import './styles.scss';
 
@@ -18,6 +19,11 @@ export default function Portfolio() {
         button.classList.remove("button__top--active");
       }
     });
+    setTimeout(() => {
+      return (
+        <Welcome />
+      )
+    }, 1000);
   }, []);
   return (
   <div className="portfolio">

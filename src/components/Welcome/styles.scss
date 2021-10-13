@@ -1,0 +1,9 @@
+@use 'src/styles/vars';
+
+.welcome {
+    margin-top: auto;
+    text-align: center;
+  & h1 {
+    font-size: 3em;
+  }
+}
