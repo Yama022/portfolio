@@ -25,9 +25,9 @@ export default function Projects() {
               <p>ExplorAstro est le premier réseau social qui vous permet de participer à des observations astronomiques organisées par la communauté. 
                 Apprenez à observer et reconnaître les constellations!
               </p>
-              <span>
+              <div className="projects__container__list__project__content__techno">
               <SiReact /><SiCss3 /><SiJavascript /><SiSass /><SiPostgresql />
-              </span>
+              </div>
             </div>
             <div className="projects__container__list__project__image">
               <img src={explorastro} />
@@ -40,9 +40,9 @@ export default function Projects() {
             <div className="projects__container__list__project__content">
               <h2>MARIO</h2>
               <p>Projet construit autour de l'univers de Nintendo</p>
-              <span>
+              <div className="projects__container__list__project__content__techno">
               <SiReact /><SiCss3 /><SiJavascript /><SiSass />
-              </span>
+              </div>
             </div>
               <div className="projects__container__list__project__image">
                 <img src={oFig} />
@@ -55,9 +55,9 @@ export default function Projects() {
             <div className="projects__container__list__project__content">
               <h2>GITHUB</h2>
               <p>Projet contruit autour de l'API de Github</p>
-              <span>
+              <div className="projects__container__list__project__content__techno">
               <SiReact /><SiCss3 /><SiJavascript /><SiSass />
-              </span>
+              </div>
             </div>
             <div className="projects__container__list__project__image">
               <img src={github} />
@@ -70,9 +70,9 @@ export default function Projects() {
             <div className="projects__container__list__project__content">
               <h2>SPOTIFY</h2>
               <p>Projet construit autour de l'univers de Spotify</p>
-              <span>
+              <div className="projects__container__list__project__content__techno">
               <SiReact /><SiCss3 /><SiJavascript /><SiSass />
-              </span>
+              </div>
             </div>
             <div className="projects__container__list__project__image">
               <img src={spotify} />
