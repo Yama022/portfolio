@@ -13,6 +13,7 @@
   &__title {
     font-weight: 900;
     margin-top: 5em;
+    font-size: 1.5em;
     & p {
       display: inline;
       font-size: 3em;
@@ -65,18 +66,19 @@
           transform: scale(1.3);
           color: vars.$tertiary-color;
           opacity: 1;
-          -webkit-transition: all 0.3s 0s ease-out;
-          -moz-transition: all 0.3s 0s ease-out;
-          -o-transition: all 0.3s 0s ease-out;
-          transition: all 0.3s 0s ease-out;
-        }
-        &:not(:hover) > * {
-          -webkit-transition: all 0.3s 0s ease-out;
-          -moz-transition: all 0.3s 0s ease-out;
-          -o-transition: all 0.3s 0s ease-out;
-          transition: all 0.3s 0s ease-out;
+          -webkit-transition: all ease-out 0.3s 0s ;
+          -moz-transition: all ease-out 0.3s 0s ;
+          -o-transition: all ease-out 0.3s 0s ;
+          transition: all ease-out 0.3s 0s ;
         }
       }
     }
   }
 }
+
+// vars.$mobTab {
+//   .presentation {
+//     font-size: 1em;
+//   }
+// }
+

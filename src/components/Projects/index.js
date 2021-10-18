@@ -12,7 +12,7 @@ import './styles.scss';
 export default function Projects() {
   return (
     <div className='projects'>
-      <div className="project__title">
+      <div className="projects__title">
         <h1>Mes Projets</h1>
       </div>
 

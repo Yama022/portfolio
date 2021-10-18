@@ -10,7 +10,7 @@ export default function Presentation() {
   return (
     <div className='presentation'>
       <div className="presentation__title">
-        <p>Je m'appelle</p> <h1>Rémi Jacquemin</h1>
+        <h1>Rémi Jacquemin</h1>
       </div>
 
       <div className="presentation__content">

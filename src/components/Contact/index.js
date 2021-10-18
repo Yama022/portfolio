@@ -6,16 +6,25 @@ import './styles.scss';
 export default function Contact() {
   return (
     <div className='contact'>
-      <div className="title">
+      <div className="contact__title">
         <h1>Contact</h1>
       </div>
 
       <div className="contact__content">
-        <h2>Si vous souhaitez me joindre :
-          <span>rjacquemin019@gmail.com</span>
-        </h2>
-        <BsLinkedin />
-        <BsGithub />
+        <div className="contact__content__mail">
+          <h2>Si vous souhaitez me joindre : </h2>
+            <span className="contact__content__mail__adress">rjacquemin019@gmail.com</span>
+        </div>
+        <div className="contact__content__logo">
+          <a href="https://www.linkedin.com/in/remi-jacquemin/" target="_blank" className="contact__content__logo__1">
+            <BsLinkedin />
+          </a>
+          <a href="https://github.com/Yama022" target="_blank" className="contact__content__logo__2">
+            <BsGithub />
+          </a>
+
+        </div>
+        
       </div>
 
     </div>
