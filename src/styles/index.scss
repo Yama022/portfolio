@@ -62,21 +62,21 @@ h1 {
 
 // Mobiles
 @mixin mob {
-  @media (max-width: #{$mobile-breakpoint}) { 
+  @media (max-width: #{vars.$mobile-breakpoint}) { 
     @content;
   }
 }
 
 // Tablets
 @mixin tab {
-  @media (min-width: #{$mobile-breakpoint}) and (max-width: #{$tablet-breakpoint}){
+  @media (min-width: #{vars.$mobile-breakpoint}) and (max-width: #{$tablet-breakpoint}){
     @content;
   }
 }
 
 // Mobiles & tablets
 @mixin mobTab {
-  @media (max-width: #{$tablet-breakpoint}){
+  @media (max-width: #{vars.$tablet-breakpoint}){
     @content;
   }
 }

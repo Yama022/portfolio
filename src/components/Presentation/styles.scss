@@ -1,4 +1,5 @@
 @use 'src/styles/vars';
+@import 'src/styles';
 
 .presentation {
   user-select: none;
@@ -76,11 +77,17 @@
       }
     }
   }
+  @include mob {
+    flex-direction: column;
+    width: 100%;
+    
+  }
+
+  @include mobTab {
+
+  }
+
+
 }
 
-// vars.$mobTab {
-//   .presentation {
-//     font-size: 1em;
-//   }
-// }
 
