@@ -1,4 +1,13 @@
+@import 'src/styles';
+
 .portfolio {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  @include mob {
+
+  }
+  @include mobTab {
+
+  }
 }

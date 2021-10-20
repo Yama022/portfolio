@@ -36,7 +36,7 @@ export default function Projects() {
         </div>
 
         <div className="projects__container__list">
-          <a href="https://www.mario.remijacquemin.fr" target="_blank" className="projects__container__list__project">
+          <a href="http://www.mario.remijacquemin.fr" target="_blank" className="projects__container__list__project">
             <div className="projects__container__list__project__content">
               <h2>MARIO</h2>
               <p>Projet construit autour de l'univers de Nintendo</p>
@@ -51,7 +51,7 @@ export default function Projects() {
         </div>
 
         <div className="projects__container__list">
-          <a href="https://www.github.remijacquemin.fr" target="_blank" className="projects__container__list__project">
+          <a href="http://www.github.remijacquemin.fr" target="_blank" className="projects__container__list__project">
             <div className="projects__container__list__project__content">
               <h2>GITHUB</h2>
               <p>Projet contruit autour de l'API de Github</p>
@@ -66,7 +66,7 @@ export default function Projects() {
         </div>
 
         <div className="projects__container__list">
-          <a href="https://www.spotify.remijacquemin.fr" target="_blank" className="projects__container__list__project">
+          <a href="http://www.spotify.remijacquemin.fr" target="_blank" className="projects__container__list__project">
             <div className="projects__container__list__project__content">
               <h2>SPOTIFY</h2>
               <p>Projet construit autour de l'univers de Spotify</p>
