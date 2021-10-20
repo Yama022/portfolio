@@ -13,7 +13,7 @@
   height: 100vh;
   &__title {
     font-weight: 900;
-    margin-top: 5em;
+    margin-top: auto;
     font-size: 1.5em;
     & p {
       display: inline;
@@ -27,7 +27,7 @@
   }
   &__content {
     font-weight: 400;
-    margin-top: 7em;
+    margin-top: auto;
     & h2 {
       font-size: 2.5em;
       font-weight: 500;
@@ -48,7 +48,7 @@
     &__stack {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: space-between;
       width: 75%;
       margin: auto;
       margin-top: 1.5em;
