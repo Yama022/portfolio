@@ -17,48 +17,7 @@ body {
   font-family: 'Dancing Script', cursive;
 }
 
-.button__top {
-  position: fixed;
-  opacity: 0;
-  transition: opacity .3s ease-in-out;
-  z-index: 999;
-  right: 7%;
-  bottom: 5%;
-  &--active {
-    opacity: 1;
-    transition: opacity .3s ease-in-out;
-    &:active {
-      transform: scale(0.9);
-      box-shadow: none;
-    }
-  }
-  &__return__top {
-    border: 3px solid black;
-    box-shadow: 0px 0px 2px 1px #000000;
-    display: block;
-    color: black;
-    background: none;
-    padding: 0;
-    height: 60px;
-    width: 60px;
-    border-radius: 10px;
-    font-size: 3em;
-    animation: slide-top 1.4s ease-in-out infinite alternate both;
-  }
 
-}
-
-.title {
-  width: 400px;
-  margin: auto;
-  text-shadow: 1px 1px 2px #000000;
-}
-
-h1 {
-  margin-top: .3em;
-  font-size: 5em;
-  text-align: center;
-}
 
 // Mobiles
 @mixin mob {

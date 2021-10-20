@@ -9,9 +9,11 @@
   flex-direction: column;
   justify-content: center;
   &__title {
-    font-size: 1.5em;
+    font-size: 5em;
     font-weight: 900;
     user-select: none;
+    margin-top: .3em;
+    text-align: center;
   }
   &__content {
     height: 100%;
