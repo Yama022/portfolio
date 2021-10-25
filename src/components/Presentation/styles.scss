@@ -56,6 +56,7 @@
       margin-top: 1.5em;
       font-size: 2.5em;
       &__language {
+        font-size: 1.2em;
         margin: 0 .5em;
         width: 3em;
         display: flex;
@@ -101,6 +102,9 @@
       &__stack {
         margin-top: auto;
         margin-top: 1.5em;
+        &__language {
+          font-size: 1.2em;
+        }
       }
     }
     
