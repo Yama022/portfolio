@@ -157,15 +157,15 @@
             border-bottom-right-radius: 5px;
             border-bottom-left-radius: 5px;
           }
-          &:hover {
-            transform: scale(1.05);
-            -webkit-transition: all ease-in-out 0.3s 0s ;
-            -moz-transition: all ease-in-out 0.3s 0s ;
-            -o-transition: all ease-in-out 0.3s 0s ;
-            transition: all ease-in-out 0.3s 0s ;
-            box-shadow: 1px 0px 3px 2px rgba(0,0,0,0.3);
-          }
         }
+      }
+      &:hover {
+        transform: scale(1.05);
+        -webkit-transition: all ease-in-out 0.3s 0s ;
+        -moz-transition: all ease-in-out 0.3s 0s ;
+        -o-transition: all ease-in-out 0.3s 0s ;
+        transition: all ease-in-out 0.3s 0s ;
+        box-shadow: 1px 0px 3px 2px rgba(0,0,0,0.3);
       }
     }
   }

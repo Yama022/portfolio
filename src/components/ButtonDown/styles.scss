@@ -23,12 +23,13 @@
   }
   @include mob {
     &__back {
-      left: 42.5%;
+      left: 42% !important;
     }
   }
   @include mobTab {
     &__back {
-      bottom: 1%;
+      bottom: 2%;
+      left: 47%;
     }
   }
 }
