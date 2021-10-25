@@ -84,24 +84,15 @@
     display: flex;
     flex-direction: column;
     &__title {
-      margin-top: 1em;
       font-size: .8em;
       text-align: center;
     }
     &__content {
-      height: 100vh;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
-      margin-top: 4em;
       font-size: .65em;
       width: 100%;
-      & h3 {
-        margin-top: 2em;
-      }
       &__stack {
-        margin-top: auto;
-        margin-top: 1.5em;
         &__language {
           font-size: 1.2em;
         }

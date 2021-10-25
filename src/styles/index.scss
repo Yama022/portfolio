@@ -28,7 +28,7 @@ body {
 
 // Tablets
 @mixin tab {
-  @media (min-width: #{vars.$mobile-breakpoint}) and (max-width: #{$tablet-breakpoint}){
+  @media (min-width: #{vars.$mobile-breakpoint}) and (max-width: #{vars.$tablet-breakpoint}){
     @content;
   }
 }
