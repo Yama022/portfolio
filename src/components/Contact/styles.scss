@@ -24,7 +24,7 @@
     flex-direction: column;
     &__mail {
       margin-top: auto;
-      height: 15%;
+      height: 25%;
       font-size: 1.5em;
       & h2 {
         height: 40%;
@@ -52,7 +52,12 @@
           -o-transition: all ease-in-out 0.3s 0s ;
           transition: all ease-in-out 0.3s 0s ;
         }
-
+      }
+      &:not(:hover) > * {
+        -webkit-transition: all 0.3s 0s ease-out;
+        -moz-transition: all 0.3s 0s ease-out;
+        -o-transition: all 0.3s 0s ease-out;
+        transition: all 0.3s 0s ease-out;
       }
     }
   }
