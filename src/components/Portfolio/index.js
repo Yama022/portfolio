@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Projects from 'src/components/Projects';
 import Presentation from 'src/components/Presentation';
+import Accueil from 'src/components/Accueil';
 import Contact from 'src/components/Contact';
 import Welcome from 'src/components/Welcome';
 import { IoIosArrowUp } from 'react-icons/io';
@@ -24,12 +25,13 @@ export default function Portfolio() {
     setTimeout(() => {
       setLoader(false);
     }, 2500);
-  }, []);
+  }, [loader]);
   return (
     loader ? 
       <Welcome />
     : 
     <div className="portfolio">
+      <Accueil />
       <Presentation />
       <Projects />
       <Contact />

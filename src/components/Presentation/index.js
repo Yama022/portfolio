@@ -1,5 +1,6 @@
 import React from 'react';
 import ButtonDown from 'src/components/ButtonDown';
+import ButtonNav from 'src/components/ButtonNav';
 import { ImHtmlFive } from "react-icons/im";
 import { FaNodeJs, FaVuejs } from "react-icons/fa";
 import { SiCss3, SiJavascript, SiReact, SiSass, SiPostgresql } from "react-icons/si";
@@ -9,13 +10,9 @@ import './styles.scss';
 export default function Presentation() {
   return (
     <div className='presentation'>
-      <div className="presentation__title">
-        <h1>Rémi Jacquemin</h1>
-      </div>
-
+      <ButtonNav />
       <div className="presentation__content">
-        <h2>Je suis développeur <strong>FullStack JS</strong> <em>(avec une préférence en front-end)</em></h2>
-        <h3>Ma stack technique : </h3>
+        <h3>My stack : </h3>
         <div className="presentation__content__stack">
           <div className="presentation__content__stack__language">
             <ImHtmlFive />
@@ -54,7 +51,7 @@ export default function Presentation() {
       </div>
 
       
-      <ButtonDown page={1} />
+      <ButtonDown page={2} />
     </div>
   );
 }

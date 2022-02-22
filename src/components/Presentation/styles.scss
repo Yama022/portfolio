@@ -5,43 +5,19 @@
   user-select: none;
   position: relative;
   width: 100%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: black;
-  background-color: vars.$primary-color;
-  height: 100vh;
-  &__title {
-    margin-top: .3em;
-    text-align: center;
-    font-weight: 900;
-    margin-top: auto;
-    font-size: 1.5em;
-    & p {
-      display: inline;
-      font-size: 3em;
-      padding-right: .3em;
-    }
-    & h1 {
-      display: inline;
-      font-size: 5em;
-    }
-  }
+  background-image: radial-gradient(circle, #6b6a96, #545186, #3e3975, #282264, #0d0a53);
+  min-height: 100vh;
   &__content {
+    width: 100%;
     font-weight: 400;
     margin-top: auto;
-    & h2 {
-      font-size: 2.5em;
-      font-weight: 500;
-      & em {
-        font-style: italic;
-        font-size: .7em;
-        font-weight: 100;
-      }
-      & strong {
-        font-weight: 900;
-      }
-    }
+    position: absolute;
+    top: 30%;
+    
     & h3 {
       font-size: 2em;
       font-weight: 500;
@@ -55,6 +31,7 @@
       margin: auto;
       margin-top: 1.5em;
       font-size: 2em;
+      color: white;
       &__language {
         font-size: 1.2em;
         margin: 0 .5em;
@@ -64,6 +41,7 @@
         position: relative;
         &__name {
           position: absolute;
+          color: white;
           bottom: -90%;
           opacity: 0;
           font-size: .5em;
@@ -76,6 +54,7 @@
           -moz-transition: all ease-out 0.3s 0s ;
           -o-transition: all ease-out 0.3s 0s ;
           transition: all ease-out 0.3s 0s ;
+
         }
         &:not(:hover) > * {
           -webkit-transition: all 0.3s 0s ease-out;

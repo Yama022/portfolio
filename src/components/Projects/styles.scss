@@ -3,15 +3,13 @@
 
 .projects {
   position: relative;
-  background-color: vars.$secondary-color;
-  color: black;
+  background-image: radial-gradient(circle, #6b6a96, #545186, #3e3975, #282264, #0d0a53);
   height: 100vh;
   margin: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: black;
   &__title {
     margin-top: .3em;
     text-align: center;
@@ -27,7 +25,7 @@
       font-size: 1.5em;
       &__list {
         border-radius: 5px;
-        background-color: vars.$tertiary-color;
+        background-color: vars.$secondary-color;
         margin: auto;
         width: 45%;
         height: 45%;
@@ -51,7 +49,6 @@
               font-family: sans-serif;
             }
             & p {
-              color: black;
             }
             &__techno {
               width: 100%;
