@@ -3,44 +3,49 @@
 
 
 .buttonNav {
-    width: 65%;
-    margin-left: 20%;
+  position: fixed;
+  z-index: 9999;
+  width: 65%;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Barlow Condensed', sans-serif !important;
+  height: 5%;
+  & button {
+    font-size: 1.1em;
+    padding-top: 1em;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: 'Barlow Condensed', sans-serif !important;
-    height: 5%;
-    & button {
-      font-size: 1.1em;
-      padding-top: 1em;
-      display: flex;
-      width: auto;
-      justify-content: center;
-      flex-wrap: wrap;
-      border: none;
-      color: white;
-      background-color: transparent;
-      font-weight: 200;
-      z-index: 1;
-      &:hover {
-        border-bottom: 1px solid vars.$primary-color;
-        color: vars.$primary-color;
-        font-weight: 400;
-        -webkit-transition: all ease-out 0.2s 0s ;
-        -moz-transition: all ease-out 0.2s 0s ;
-        -o-transition: all ease-out 0.2s 0s ;
-        transition: all ease-out 0.2s 0s ;
-      }
-      &:not(:hover) {
-        -webkit-transition: all 0.1s 0s ease-out;
-        -moz-transition: all 0.1s 0s ease-out;
-        -o-transition: all 0.1s 0s ease-out;
-        transition: all 0.1s 0s ease-out;
-      }
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-weight: 200;
+    z-index: 1;
+    &:hover {
+      border-bottom: 1px solid vars.$primary-color;
+      color: vars.$primary-color;
+      font-weight: 400;
+      -webkit-transition: all ease-out 0.2s 0s ;
+      -moz-transition: all ease-out 0.2s 0s ;
+      -o-transition: all ease-out 0.2s 0s ;
+      transition: all ease-out 0.2s 0s ;
+    }
+    &:not(:hover) {
+      -webkit-transition: all 0.1s 0s ease-out;
+      -moz-transition: all 0.1s 0s ease-out;
+      -o-transition: all 0.1s 0s ease-out;
+      transition: all 0.1s 0s ease-out;
+    }
     }
     @include mob {
       width: 100%;
       margin-left: auto;
+      & button {
+        font-size: .9em;
+      }
     }
     @include mobTab {
   

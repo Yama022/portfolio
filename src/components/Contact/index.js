@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import ButtonNav from 'src/components/ButtonNav';
-import emailjs from '@emailjs/browser';
-import{ init } from '@emailjs/browser';
-init("user_shZHP9EOOzv1AeYW8UjJM");
+import { FiMail } from 'react-icons/fi';
+import { BsGlobe2 } from 'react-icons/bs';
+import { BsTelephone } from 'react-icons/bs';
 import './styles.scss';
 
 const Contact = () => {
@@ -94,7 +93,6 @@ const Contact = () => {
 
   return (
     <div className="contact-form">
-      <ButtonNav />
       <form>
       
       <div className="form-content">
@@ -151,6 +149,25 @@ const Contact = () => {
       />
       <div className="form-message"></div>
       </form>
+      <div className="contact-form__elements">
+
+        <div className="contact-form__elements__localization">
+          <div className="contact-form__elements--icon">
+            <BsGlobe2 /> <h3>Paris, France</h3>
+          </div>
+        </div>
+        <div className="contact-form__elements__mail">
+          <div className="contact-form__elements--icon">
+            <FiMail /> <h3>rjacquemin019@gmail.com</h3>
+          </div>
+        </div>
+        <div className="contact-form__elements__telephone">
+          <div className="contact-form__elements--icon">
+            <BsTelephone /> <h3>06.01.06.19.68</h3>
+          </div>
+        </div>
+
+      </div>
     </div>
   );
 };

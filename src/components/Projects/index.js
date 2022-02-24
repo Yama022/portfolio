@@ -4,7 +4,6 @@ import github from 'src/assets/images/github.png';
 import oFig from 'src/assets/images/oFig.png';
 import spotify from 'src/assets/images/spotify.png';
 import explorastro from 'src/assets/images/explorastro.png';
-import ButtonNav from 'src/components/ButtonNav';
 import { SiCss3, SiJavascript, SiReact, SiSass, SiPostgresql } from "react-icons/si";
 
 import 'animate.css';
@@ -13,7 +12,6 @@ import './styles.scss';
 export default function Projects() {
   return (
     <div className='projects'>
-      <ButtonNav />
       <div className="projects__title">
         <h1></h1>
       </div>

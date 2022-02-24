@@ -1,6 +1,5 @@
 import React from 'react';
 import ButtonDown from 'src/components/ButtonDown';
-import ButtonNav from 'src/components/ButtonNav';
 import { ImHtmlFive } from "react-icons/im";
 import { FaNodeJs, FaVuejs } from "react-icons/fa";
 import { SiCss3, SiJavascript, SiReact, SiSass, SiPostgresql } from "react-icons/si";
@@ -10,7 +9,6 @@ import './styles.scss';
 export default function Presentation() {
   return (
     <div className='presentation'>
-      <ButtonNav />
       <div className="presentation__content">
         <h3>My stack : </h3>
         <div className="presentation__content__stack">
