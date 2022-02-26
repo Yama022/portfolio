@@ -24,15 +24,18 @@
     background-color: transparent;
     font-weight: 200;
     z-index: 1;
-    &:hover {
+    &:after {
       border-bottom: 1px solid vars.$primary-color;
       color: vars.$primary-color;
-      font-weight: 400;
-      -webkit-transition: all ease-out 0.2s 0s ;
-      -moz-transition: all ease-out 0.2s 0s ;
-      -o-transition: all ease-out 0.2s 0s ;
-      transition: all ease-out 0.2s 0s ;
+      transition: width 0.2s;
+      content: '';
+      display: block;
+      width: 0;
     }
+    &:hover:after {
+      width: 75%;
+    }
+
     &:not(:hover) {
       -webkit-transition: all 0.1s 0s ease-out;
       -moz-transition: all 0.1s 0s ease-out;
